@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter_67_1/screen/home.dart';
 
 void main() {
   //runApp(const MyApp());
@@ -18,28 +19,4 @@ void main() {
       ),
     ),
   );
-}
-
-class Home extends StatelessWidget {
-  const Home({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    //return Text("hello Flutter! Step2");
-    return Center(
-      child: Container(
-        color: Colors.blueAccent,
-        margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-        padding: EdgeInsets.all(50),
-        child: Text(
-          "Hello Flutter! Step3",
-          style: TextStyle(
-            fontSize: 30,
-            color: Colors.white,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-      ),
-    );
-  }
 }
