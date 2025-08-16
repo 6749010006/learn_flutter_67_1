@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:learn_flutter_67_1/model/person.dart';
 
 class Item extends StatefulWidget {
@@ -10,7 +11,7 @@ class Item extends StatefulWidget {
 
 class _ItemState extends State<Item> {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, dynamic personList) {
     return ListView.builder(
       itemCount: personList.lenght,
       itemBuilder: (context, index) {
