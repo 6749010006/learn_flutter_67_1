@@ -6,7 +6,7 @@
 //Constructor
 // Person({required this.name, required this.age, required this.job});
 //}
-
+//
 //List<Person> personList = [
 //  Person(name: "สมชาย", age: 20, job: "วิศวกร"),
 //  Person(name: "สมหญิง", age: 22, job: "หมอ"),
