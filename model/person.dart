@@ -23,9 +23,21 @@ enum Job {
     color: Colors.yellow,
   ),
   doctor(title: "Engineer", image: "assets/imges/1.jpg", color: Colors.green),
-  teacher(title: "Engineer", image: "assets/imges/2.jpg", color: Colors.blue),
-  artist(title: "Engineer", image: "assets/imges/4.jpg", color: Colors.blue),
-  chef(title: "Engineer", image: "assets/imges/5.jpg", color: Colors.blue);
+  teacher(
+    title: "Engineer",
+    image: "assets/imges/2.jpg",
+    color: Color.fromARGB(255, 110, 243, 33),
+  ),
+  artist(
+    title: "Engineer",
+    image: "assets/imges/4.jpg",
+    color: Color.fromARGB(255, 243, 33, 114),
+  ),
+  chef(
+    title: "Engineer",
+    image: "assets/imges/5.jpg",
+    color: Color.fromARGB(255, 228, 228, 13),
+  );
 
   final String title;
   final String image;
