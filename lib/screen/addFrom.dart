@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:learn_flutter_67_1/model/person.dart';
 
+import 'package:learn_flutter_67_1/main.dart';
+
 class Addfrom extends StatefulWidget {
   const Addfrom({super.key});
 
@@ -112,7 +114,11 @@ class AddfromState extends State<Addfrom> {
                           Person(name: _name, age: _age, job: _job),
                         );
                       });
-                      Navigator.pop(context);
+                      _formkey.currentState!.reset();
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const MyApp()),
+                      );
                     }
                   },
                   child: Text(
